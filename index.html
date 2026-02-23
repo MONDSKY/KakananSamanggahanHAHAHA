@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BBQ ni Dennis</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <span>BBQ</span><br />
+    HEAVEN
+    <small>SMOKED TO PERFECTION</small>
+  </div>
+</header>
+
+<nav>
+  <a href="#" onclick="scrollToSection('menu')">MENU</a>
+  <a href="#" onclick="scrollToSection('about')">ABOUT</a>
+  <a href="#" onclick="scrollToSection('reservation')">RESERVATIONS</a>
+  <a href="#" onclick="scrollToSection('contact')">CONTACT</a>
+</nav>
+
+<div class="banner">
+  <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb38?auto=format&fit=crop&w=1350&q=80" alt="Barbecue Food">
+</div>
+
+<main>
+  <section class="content-section" id="about">
+    <h2>OUR STORY</h2>
+    <p>
+      BBQ ni Dennis started with one grill and a family recipe. 
+      We slow smoke premium meats for up to 12 hours to deliver bold flavor and tender texture.
+    </p>
+    <button class="btn" onclick="showAlert('Our story began in 2015 with a passion for authentic smoked barbecue.')">LEARN MORE</button>
+  </section>
+
+  <section class="content-section" id="menu">
+    <h2>SIGNATURE DISHES</h2>
+    <p>
+      Try our smoked ribs, brisket, and grilled chicken platters. 
+      Each dish is prepared fresh daily and served with house made sauces.
+    </p>
+    <button class="btn" onclick="showAlert('Our best seller is the 12-hour smoked beef brisket.')">LEARN MORE</button>
+  </section>
+
+  <section class="content-section" id="reservation">
+    <h2>VISIT US</h2>
+    <p>
+      Reserve your table today. 
+      Enjoy a relaxed dining space, fast service, and consistent quality every visit.
+    </p>
+    <button class="btn" onclick="openReservation()">RESERVE NOW</button>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="footer-section">
+    <strong>ADDRESS</strong>
+    1251 Grill Street<br />
+    Boston, MA 02118
+  </div>
+
+  <div class="footer-section">
+    <strong>HOURS</strong>
+    Monday to Friday 11:00 AM - 9:00 PM<br />
+    Saturday to Sunday 12:00 PM - 10:00 PM
+  </div>
+
+  <div class="footer-section">
+    <strong>SOCIAL MEDIA</strong>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+  </html>
